@@ -6,6 +6,10 @@
   printf("%i/%i", numerator, denominator);
 }
 
+-(void) setNumerator: (int) n andDenominator: (int) d {
+    numerator = n;
+    denominator = d;
+}
 -(void) setNumerator: (int) n {
     numerator = n;
 }

@@ -6,6 +6,7 @@
 }
 
 -(void) print;
+-(void) setNumerator: (int) n andDenominator: (int) d;
 -(void) setNumerator: (int) n;
 -(void) setDenominator: (int) d;
 -(int) numerator;
